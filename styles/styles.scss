@@ -3,20 +3,29 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+h2 {
+    font-size: 2rem;
+    color: $primaryColor;
 }
 
 .nav-bar-container {
     display: flex;
     flex-direction: row;
     color: $white;
-    height: 15vh;
+    height: 75px;
     background-color: $darkerColor;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 .logo-img {
     height: 80%;
     margin-left: 15px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .navbar-links {
@@ -54,23 +63,119 @@
 
   // Presentation
   .container-presentation {
-  background-color: #212121;
+  background: url('/presentation-background.png') no-repeat;
+  background-size: cover;
+  background-color: #F3F3F3;
   height: 100%;
   width: 100%;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   display: flex;
-  height: 80vh;
+  height: 100vh;
   }
 
 .text-presentation {
-  font-family: 'Roboto Mono', monospace;
-  color: $primaryColor!important;
+  font-family: 'Roboto Mono', monospace !important;
+  color: $white !important;
   font-weight: 100;
   font-size: 28px;
   color: white;
+  margin-top: 20vh;
 }
 
 .dud {  
     color: $secondaryColor; 
+}
+
+// my cv
+
+.my-cv-container {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    color: $darkerColor;
+    background-color: #F3F3F3;
+    background-size: contain;
+}
+
+.education-container {
+    width: 40%;
+}
+
+.work-container {
+    width: 40%;
+}
+
+.education-work-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.logos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first-logo-container {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-logo-container img {
+    max-width: 250px;
+}
+
+.first-logo-container img:first-child {
+    max-height: 200px;
+}
+
+.first-logo-container img:last-child {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.second-img-logo {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.second-logo-container {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-logo-container img {
+    max-width: 200px;
+}
+
+.second-logo-container img:last-child {
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 50px;
+}
+
+// projects section container
+.projects-section-container {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+.projects-cards-container {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
 }
