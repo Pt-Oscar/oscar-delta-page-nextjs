@@ -2,6 +2,11 @@ import '../styles/styles.scss'
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import App from 'next/app'
+import '@fortawesome/fontawesome-free/js/fontawesome';
+// import '@fortawesome/fontawesome-free/js/solid';
+// import '@fortawesome/fontawesome-free/js/regular';
+import '@fortawesome/fontawesome-free/js/brands';
+import Whatsapp from '../components/Whatsapp';
 
 const myApp = ({Component, pageProps}) => {
 console.log(pageProps, 'asdasd')
@@ -12,6 +17,7 @@ console.log(pageProps, 'asdasd')
     <div id="content-wrap">
     <Component {...pageProps} />
    </div>
+   <Whatsapp />
    <Footer id="footer"/>
  </div>
         </div>

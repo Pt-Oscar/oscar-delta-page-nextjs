@@ -72,6 +72,8 @@ const Presentation = (props) => {
         'Git + Github',
         'Javascript',
         'NPM',
+        'Firebase',
+        'Express',
         'by Oscar Delta',
       ]
       

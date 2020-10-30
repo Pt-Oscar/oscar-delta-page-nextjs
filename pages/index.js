@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import Presentation from '../components/index/Presentation';
 import MyCV from '../components/index/MyCV';
 import ProjectsSection from '../components/index/ProjectsSection';
+import Whatsapp from '../components/Whatsapp';
 
 const Index = (props) => {
 
