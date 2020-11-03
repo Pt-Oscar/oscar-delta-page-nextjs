@@ -84,8 +84,22 @@ h4 {
     width: 100%;
     background-color: $darkerColor;  
     height: 100px;
-    margin-top: 20px;          
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;         
   }
+
+  .footer-img {
+      background: $darkerColor;
+      max-width: 250px;
+      max-height: 80px;
+  }
+
+  .footer-img-mono {
+      max-width: 250px;
+      max-height: 70px;
+    }
 
   // Presentation
   .container-presentation {
@@ -145,6 +159,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    display: none;
 }
 
 .first-logo-container {
@@ -211,6 +226,7 @@ h4 {
     padding-right: 25px;
     padding-top: 10px;
     padding-bottom: 100px;
+    background-color: #F3F3F3;
 }
 
 .projects-cards-container {
@@ -220,6 +236,7 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .image-card-container {

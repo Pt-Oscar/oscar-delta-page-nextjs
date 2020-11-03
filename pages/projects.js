@@ -5,7 +5,11 @@ const Projects = () => {
     return (
         <div>
 
-        projects</div>
+        projects
+        <div>
+            aklsaksa
+        </div>
+        </div>
     )
 }
 
