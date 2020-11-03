@@ -1,9 +1,8 @@
 @import './variables';
-
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Asap', sans-serif;
 }
 
 h2 {
@@ -28,10 +27,10 @@ h4 {
 
 .navbar {
     background-color: $darkerColor !important;
+    font-weight: bold;
     position: fixed;
     z-index: 100;
     width: 100%;
-    
 }
 
 .navbar-nav {
@@ -64,25 +63,23 @@ h4 {
     text-decoration: none;
 }
 
-
 // FOOTER 
-
 #page-container {
     position: relative;
     // min-height: 85vh;
-  }
-  
-  #content-wrap {
-    padding-bottom: 2.5rem;    
-  }
-  
-  #footer {
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+#footer {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 2.5rem;
     width: 100%;
-    background-color: $darkerColor;  
+    background-color: $darkerColor;
     height: 100px;
     margin-top: 20px;
     display: flex;
@@ -115,20 +112,19 @@ h4 {
   }
 
 .text-presentation {
-  font-family: 'Roboto Mono', monospace !important;
-  color: $white !important;
-  font-weight: 100;
-  font-size: 28px;
-  color: white;
-  margin-top: 10vh;
+    font-family: 'Roboto Mono', monospace !important;
+    color: $white !important;
+    font-weight: 100;
+    font-size: 28px;
+    color: white;
+    margin-top: 10vh;
 }
 
-.dud {  
-    color: $secondaryColor; 
+.dud {
+    color: $secondaryColor;
 }
 
 // my cv
-
 .my-cv-container {
     padding-left: 25px;
     padding-right: 25px;
@@ -152,7 +148,6 @@ h4 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 .logos-container {
@@ -248,21 +243,21 @@ h4 {
 }
 
 //Whatsapp
-.whatsapp-float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
 }
 
-.i-float{
-	margin-top:16px;
+.i-float {
+    margin-top: 16px;
 }
