@@ -11,27 +11,24 @@ const MyCV = (props) => {
                 <div className="education-container">
                     <h4>Education</h4>
                     <ul className="list-group">
-                        <li className="list-group-item">Cras justo odio</li>
-                        <li className="list-group-item">Dapibus ac facilisis in</li>
-                        <li className="list-group-item">Morbi leo risus</li>
-                        <li className="list-group-item">Porta ac consectetur ac</li>
-                        <li className="list-group-item">Vestibulum at eros</li>
+                        <li className="list-group-item">Web-developer fullstack by IronHack</li>
+                        <li className="list-group-item">Psychology degree by Universidad Autónoma Metropolitana</li>
+                        <li className="list-group-item">Videogames and Vr course by Vgmakers</li>
                     </ul>
                 </div>
 
                 <div className="work-container">
                     <h4>Work experience</h4>
                     <ul className="list-group">
-                        <li className="list-group-item">Cras justo odio</li>
-                        <li className="list-group-item">Dapibus ac facilisis in</li>
-                        <li className="list-group-item">Morbi leo risus</li>
-                        <li className="list-group-item">Porta ac consectetur ac</li>
-                        <li className="list-group-item">Vestibulum at eros</li>
+                        <li className="list-group-item">Front-end developer on PleedTech</li>
+                        <li className="list-group-item">Manager on Wholesale pork sales</li>
+                        <li className="list-group-item">Musician on Musical group Geisha</li>
+                        <li className="list-group-item">Teacher on Programa de eduación abierta para adultos</li>
                     </ul>
                 </div>
                 
             </div>
-           <div className="view-full-cv-container"> <Link href="/cv"><a><button type="button" class="btn btn-primary">View full CV</button></a></Link> </div>
+           <div className="view-full-cv-container"> <Link href="/curriculum"><a><button type="button" class="btn btn-primary">View full CV</button></a></Link> </div>
            {/* <div className="logos-container">
                 <div className="first-logo-container">
                     <img src="/logo/react.png"/>
