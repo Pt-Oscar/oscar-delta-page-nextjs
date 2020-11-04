@@ -3,8 +3,8 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import App from 'next/app'
 import '@fortawesome/fontawesome-free/js/fontawesome';
-// import '@fortawesome/fontawesome-free/js/solid';
-// import '@fortawesome/fontawesome-free/js/regular';
+import '@fortawesome/fontawesome-free/js/solid';
+import '@fortawesome/fontawesome-free/js/regular';
 import '@fortawesome/fontawesome-free/js/brands';
 import Whatsapp from '../components/Whatsapp';
 

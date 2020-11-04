@@ -23,7 +23,7 @@ useEffect(()=>{
         <Link href="/projects"><a className="nav-link">My projects</a></Link>
       </li>
       <li className="nav-item">
-        <Link href="/projects"><a className="nav-link">Full CV</a></Link>
+        <Link href="/curriculum"><a className="nav-link">Full CV</a></Link>
       </li>
       <li className="nav-item">
         <Link href="/contact"><a className="nav-link">Contact</a></Link>
