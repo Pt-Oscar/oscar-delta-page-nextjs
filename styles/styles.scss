@@ -351,3 +351,96 @@ h4 {
     position: absolute;
     right: 0;
 }
+
+//projects
+
+.card-project{
+    width: 90%;
+    height: 250px;
+   background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(242,245,248,1) 35%, rgba(236,236,237,1) 100%);
+    box-shadow: 0 13px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 30px;
+    transition: background-color .5s, box-shadow .5s, margin-left .5s;
+  }
+  .card-project:hover{
+    margin-left: 8%;
+    background-color: #ffff;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.3);
+    transition: background-color .5s, box-shadow .5s, margin-left .5s;
+  }
+  .card-project-right{
+    width: 90%;
+    height: 250px;
+   background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(242,245,248,1) 35%, rgba(236,236,237,1) 100%);
+    box-shadow: 0 13px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-left: 8%;
+    margin-top: 30px;
+    transition: background-color .5s, box-shadow .5s, margin-left .5s;
+  }
+  .card-project-right:hover{
+    margin-left: 5%;
+    background-color: #ffff;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.3);
+    transition: background-color .5s, box-shadow .5s, margin-left .5s;
+  }
+  .post-image-project{
+    width: 200px;
+    height: 220px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 10px 10px 10px;
+    float: left;
+  }
+  .post-content-project{
+    width: 55%;
+    height: 250px;
+    float: left;
+    margin-left: 5px;
+    overflow: hidden;
+  }
+
+  .post-header-project{
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    color: #3B3C3F;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .post-text-project{
+    font-size: 15px;
+    padding-left: 20px;
+    color: #768CA4;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+
+  .author{
+    width: 100%;
+    height: 60px;
+    /*background-color: #E4E6EB;*/
+    background-color: #F2F5F8;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 10px;
+    
+  }
+
+  .author-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  .container-project {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
