@@ -1,5 +1,5 @@
 const Footer = () => {
-
+ //add comment
     return (
         <div id="footer">
             <img src="/footer/ironhack-logo.png" className="footer-img" />
