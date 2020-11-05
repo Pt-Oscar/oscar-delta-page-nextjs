@@ -4,7 +4,7 @@ import Header from '../components/curriculum/Header'
 const Curriculum = () => {
 
     return (
-        <div>
+        <div className="curriculum-main-container">
             <Header />
             <CurriculumContent />
         </div>

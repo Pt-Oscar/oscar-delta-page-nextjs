@@ -1,4 +1,5 @@
 import '../styles/styles.scss'
+import '../styles/responsive.scss'
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import App from 'next/app'

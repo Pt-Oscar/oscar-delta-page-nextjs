@@ -16,16 +16,28 @@ useEffect(()=>{
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav">
-      <li className="nav-item active">
+      <li className="nav-item active" onClick={()=>{
+        const hamburger = document.getElementsByClassName('navbar-collapse')[0]
+        hamburger.classList.remove('show')
+      }}>
       <Link href="/"><a className="nav-link">Home</a></Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" onClick={()=>{
+        const hamburger = document.getElementsByClassName('navbar-collapse')[0]
+        hamburger.classList.remove('show')
+      }}>
         <Link href="/projects"><a className="nav-link">My projects</a></Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" onClick={()=>{
+        const hamburger = document.getElementsByClassName('navbar-collapse')[0]
+        hamburger.classList.remove('show')
+      }}>
         <Link href="/curriculum"><a className="nav-link">Full CV</a></Link>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" onClick={()=>{
+        const hamburger = document.getElementsByClassName('navbar-collapse')[0]
+        hamburger.classList.remove('show')
+      }}>
         <Link href="/contact"><a className="nav-link">Contact</a></Link>
       </li>
     </ul>
