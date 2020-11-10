@@ -1,0 +1,46 @@
+@media(max-width: 600px){
+    #page-container{
+    position: relative;
+    width: 150vw;
+    }
+    .card-project {
+        height: 750px;
+    } 
+    .card-project-right {
+        height: 650px !important;
+    } 
+    .post-content-project {
+        width: 95%;
+        height: 100%;
+        float: left;
+        margin-left: 5px;
+        overflow: hidden;
+    }
+    .img-card-project {
+        width: 99%;
+        display: flex;
+        justify-content: center;
+    }
+    .curriculum-main-container{
+        padding: 10% 0 10% 0;
+    }
+    .curriculum-content-first-line {
+        margin-bottom: 30px;
+    }
+    .curriculum-content-first-line div {
+        margin-bottom: 30px;
+    }
+    .curriculum-content-second-line {
+        margin-bottom: 30px;
+    }
+    .curriculum-content-second-line div {
+        margin-bottom: 30px;
+    }
+    .contact-container {
+        padding-top: 30%;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 30%;
+        height: 145vh;
+    }
+}
